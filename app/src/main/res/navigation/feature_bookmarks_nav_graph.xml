@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bookmarks_nav_graph"
+    app:startDestination="@+id/bookmarkListFragment">
+
+    <fragment
+        android:id="@+id/bookmarkListFragment"
+        android:name="com.battagliandrea.marvelapi.feature.bookmarks.presentation.BookmarkListFragment"
+        android:label="BookmarkListFragment">
+    </fragment>
+
+</navigation>

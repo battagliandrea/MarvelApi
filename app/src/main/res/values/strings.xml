@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MarvelApi</string>
+
+    <!--Dynamic module titles-->
+    <string name="feature_characters">feature characters</string>
+    <string name="feature_bookmarks">feature bookmarks</string>
 </resources>
