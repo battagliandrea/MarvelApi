@@ -9,6 +9,7 @@ object ModuleDependency {
     const val CORE = ":core"
     const val LINT_RULES = ":lintrules"
 
+    const val FEATURE_SPLASH = ":feature_splash"
     const val FEATURE_CHARACTERS = ":feature_characters"
     const val FEATURE_BOOKMARKS = ":feature_bookmarks"
 
