@@ -13,7 +13,7 @@ abstract class BaseViewModel<ViewState : BaseViewState, ViewAction : BaseAction>
     private val stateMutableLiveData = MutableLiveData<ViewState>()
     val stateLiveData = stateMutableLiveData.toLiveData()
 
-    protected var state by Delegates.observable(initialState) { _, old, new ->
+    protected var state by Delegates.observable(initialState) { _, _, new ->
         stateMutableLiveData.value = new
     }
 
