@@ -3,10 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item android:id="@+id/characters_nav_graph"
-        android:title="Characters"
+        android:title="@string/characters"
+        android:icon="@drawable/ic_bullet_list"
         android:orderInCategory="1"/>
 
     <item android:id="@+id/bookmarks_nav_graph"
-        android:title="Bookrmarks"
+        android:title="@string/bookmarks"
+        android:icon="@drawable/ic_bookmarks"
         android:orderInCategory="2"/>
 </menu>

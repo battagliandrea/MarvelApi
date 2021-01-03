@@ -1,14 +1,15 @@
-package com.battagliandrea.marvelapi
+package com.battagliandrea.marvelapi.feature.home.presentation
 
 import android.os.Bundle
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.battagliandrea.marvelapi.core.presentation.BaseActivity
-import kotlinx.android.synthetic.main.activity_frame_bottom_nav.*
+import com.battagliandrea.marvelapi.feature.home.R
+import kotlinx.android.synthetic.main.activity_home.*
 
-class MainActivity : BaseActivity() {
+class HomeActivity : BaseActivity() {
 
-    override val layoutResId = R.layout.activity_frame_bottom_nav
+    override val layoutResId = R.layout.activity_home
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -2,7 +2,13 @@
     <string name="app_name">MarvelApi</string>
 
     <!--Dynamic module titles-->
-    <string name="title_feature_splash">feature splash</string>
+    <string name="feature_splash">feature splash</string>
+    <string name="feature_home">feature home</string>
     <string name="feature_characters">feature characters</string>
     <string name="feature_bookmarks">feature bookmarks</string>
+
+    <!--Text-->
+    <string name="characters">Characters</string>
+    <string name="bookmarks">Bookmarks</string>
+
 </resources>

@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 
 abstract class BaseActivity : AppCompatActivity() {
 
+    private val TAG = this::class.java.name
+
     @get:LayoutRes
     protected abstract val layoutResId: Int
 

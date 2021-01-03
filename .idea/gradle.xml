@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/feature_bookmarks" />
             <option value="$PROJECT_DIR$/feature_characters" />
+            <option value="$PROJECT_DIR$/feature_home" />
             <option value="$PROJECT_DIR$/feature_splash" />
             <option value="$PROJECT_DIR$/lintrules" />
           </set>
