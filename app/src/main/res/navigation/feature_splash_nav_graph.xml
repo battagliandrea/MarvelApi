@@ -10,7 +10,7 @@
         android:label="SplashFragment">
 
         <action
-            android:id="@+id/action_splashFragment_to_mainActivity"
+            android:id="@+id/action_splashFragment_to_homeActivity"
             app:destination="@id/mainActivity"
             app:enterAnim="@anim/nav_default_enter_anim"
             app:exitAnim="@anim/nav_default_exit_anim"
@@ -21,7 +21,7 @@
 
     <activity
         android:id="@+id/mainActivity"
-        android:name="com.battagliandrea.marvelapi.MainActivity"
+        android:name="com.battagliandrea.marvelapi.feature.home.presentation.HomeActivity"
         android:label="MainActivity" />
 
 </navigation>

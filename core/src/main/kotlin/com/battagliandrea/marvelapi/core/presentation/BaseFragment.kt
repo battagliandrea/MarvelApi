@@ -9,6 +9,8 @@ import androidx.fragment.app.Fragment
 
 abstract class BaseFragment : Fragment() {
 
+    private val TAG = this::class.java.name
+
     @get:LayoutRes
     protected abstract val layoutResourceId: Int
 

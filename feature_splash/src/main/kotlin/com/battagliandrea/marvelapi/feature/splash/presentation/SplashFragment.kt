@@ -44,7 +44,7 @@ class SplashFragment @Inject constructor() : BaseFragment() {
 
     private fun onStateChange(state: SplashViewModel.ViewState) {
         if (!state.waiting) {
-            findNavController().navigate(com.battagliandrea.marvelapi.R.id.action_splashFragment_to_mainActivity)
+            findNavController().navigate(com.battagliandrea.marvelapi.R.id.action_splashFragment_to_homeActivity)
             activity?.finish()
         }
     }
