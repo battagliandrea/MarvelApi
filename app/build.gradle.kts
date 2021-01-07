@@ -1,4 +1,4 @@
-
+import com.android.build.gradle.internal.dsl.DefaultConfig
 
 plugins {
     id(GradlePluginId.ANDROID_APPLICATION)
@@ -73,13 +73,15 @@ dependencies {
     api(LibraryDependency.NAVIGATION_FRAGMENT_KTX)
     api(LibraryDependency.NAVIGATION_UI_KTX)
     api(LibraryDependency.NAVIGATION_FEATURES)
+
+    lintChecks(project(ModuleDependency.LINT_RULES))
 }
 
 fun getDynamicFeatureModuleNames() = ModuleDependency.getDynamicFeatureModules()
     .map { it.replace(":feature_", "") }
     .toSet()
 
-fun com.android.build.gradle.internal.dsl.DefaultConfig.buildConfigField(
+fun DefaultConfig.buildConfigField(
     name: String,
     value: Set<String>
 ) {

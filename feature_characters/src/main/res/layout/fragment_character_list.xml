@@ -6,9 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".presentation.CharacterListFragment">
 
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="CHARACTERS"/>
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/fragment_character_list_item"/>
 
 </FrameLayout>

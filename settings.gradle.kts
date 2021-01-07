@@ -17,7 +17,6 @@ pluginManagement {
 }
 
 rootProject.buildFileName = "build.gradle.kts"
-
 rootDir
     .walk()
     .maxDepth(1)

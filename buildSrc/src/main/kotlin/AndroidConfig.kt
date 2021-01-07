@@ -1,5 +1,5 @@
 object AndroidConfig {
-    const val ID = "com.battagliandrea.marvelc.api"
+    const val ID = "com.battagliandrea.marvelapi"
 
     const val COMPILE_SDK_VERSION = 30
     const val MIN_SDK_VERSION = 23

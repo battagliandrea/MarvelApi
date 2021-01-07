@@ -1,10 +1,11 @@
 package com.battagliandrea.marvelapi.feature.bookmarks.di
 
 import com.battagliandrea.marvelapi.core.di.CoreComponent
+import com.battagliandrea.marvelapi.core.di.scope.FeatureScope
 import com.battagliandrea.marvelapi.feature.bookmarks.presentation.BookmarkListFragment
 import dagger.Component
 
-@BookmarksScope
+@FeatureScope
 @Component(
         modules = [BookmarksModule::class],
         dependencies = [CoreComponent::class]

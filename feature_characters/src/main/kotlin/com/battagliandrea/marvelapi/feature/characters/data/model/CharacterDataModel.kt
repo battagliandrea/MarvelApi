@@ -51,6 +51,6 @@ internal fun CharacterDataModel.toDomainModel(): CharacterDomainModel =
     CharacterDomainModel(
             id = this.id ?: 0,
             name = this.name.orEmpty(),
-            imageUrl = this.thumbnail?.path.orEmpty()
+            imageUrl = "${this.thumbnail?.path.orEmpty()}.${this.thumbnail?.extension.orEmpty()}"
 
     )

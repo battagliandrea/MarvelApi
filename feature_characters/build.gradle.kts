@@ -43,6 +43,4 @@ dependencies {
     implementation(LibraryDependency.DAGGER)
     kapt(LibraryDependency.DAGGER_COMPILER)
     kapt(LibraryDependency.DAGGER_PROCESSOR)
-
-    lintChecks(project(ModuleDependency.LINT_RULES))
 }

@@ -1,14 +1,13 @@
 package com.battagliandrea.marvelapi.feature.characters.di
 
 import com.battagliandrea.marvelapi.core.di.CoreComponent
-import com.battagliandrea.marvelapi.core.di.module.CoreNetworkModule
 import com.battagliandrea.marvelapi.core.di.scope.FeatureScope
 import com.battagliandrea.marvelapi.feature.characters.presentation.CharacterListFragment
 import dagger.Component
 
 @FeatureScope
 @Component(
-        modules = [CoreNetworkModule::class, CharacterModule::class, CharacterDataModule::class],
+        modules = [CharacterModule::class, CharacterDataModule::class],
         dependencies = [CoreComponent::class]
 )
 interface CharacterComponent {
